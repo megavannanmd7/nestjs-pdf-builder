@@ -1,8 +1,9 @@
 import { Module } from '@nestjs/common';
-import { PdfModule } from './pdf/pdf.module';
+import { PdfModule } from './pdf-pdfkit/pdf.module';
+import { PdfPlaywrightModule } from './pdf-playwright/pdf-playwright.module';
 
 @Module({
-  imports: [PdfModule],
+  imports: [PdfModule,PdfPlaywrightModule],
   controllers: [],
   providers: [],
 })

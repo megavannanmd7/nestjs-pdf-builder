@@ -1,7 +1,7 @@
 # NestJS PDF Report Engine
 
 POC done for report generation for a Paxi product.  
-This service generates professional PDF reports using **NestJS**, **PDFKit**, and **Chart.js**.
+This service generates professional PDF reports using **NestJS**, **PDFKit**, **Playwright** and **Chart.js**.
 
 ---
 
@@ -21,7 +21,8 @@ npm install
 npm run start
 
 Endpoint
-POST /pdf/generate
+POST /pdf-pdfkit/generate
+POST /pdf-playwright/generate
 Content-Type: application/json
 
 Body
