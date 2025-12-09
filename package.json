@@ -28,6 +28,7 @@
     "chartjs-node-canvas": "^5.0.0",
     "image-size": "^2.0.2",
     "pdfkit": "^0.17.2",
+    "playwright": "^1.57.0",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
   },

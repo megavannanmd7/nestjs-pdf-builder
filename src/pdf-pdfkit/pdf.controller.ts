@@ -3,7 +3,7 @@ import { PDFService } from './pdf.service';
 import { Response } from 'express';
 import { ReportMapper } from './report.mapper';
 
-@Controller('pdf')
+@Controller('pdf-pdfkit')
 export class PdfController {
   constructor(private readonly pdfService: PDFService) {}
 
